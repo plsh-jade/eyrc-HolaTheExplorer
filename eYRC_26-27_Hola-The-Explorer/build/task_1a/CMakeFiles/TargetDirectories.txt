@@ -1,0 +1,11 @@
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/uninstall.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/task_1a_uninstall.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/ament_cmake_python_copy_task_1a.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/ament_cmake_python_build_task_1a_egg.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/test.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/edit_cache.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/rebuild_cache.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/list_install_components.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/install.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/install/local.dir
+/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a/CMakeFiles/install/strip.dir

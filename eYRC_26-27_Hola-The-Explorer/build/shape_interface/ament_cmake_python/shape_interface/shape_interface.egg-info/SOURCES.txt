@@ -1,0 +1,11 @@
+setup.py
+shape_interface/__init__.py
+shape_interface.egg-info/PKG-INFO
+shape_interface.egg-info/SOURCES.txt
+shape_interface.egg-info/dependency_links.txt
+shape_interface.egg-info/top_level.txt
+shape_interface/msg/__init__.py
+shape_interface/msg/_shape.py
+shape_interface/srv/__init__.py
+shape_interface/srv/_get_shape.py
+shape_interface/srv/_pixel_to_world.py

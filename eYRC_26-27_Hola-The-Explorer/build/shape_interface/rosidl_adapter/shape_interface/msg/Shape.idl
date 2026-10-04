@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from shape_interface/msg/Shape.msg
+// generated code does not contain a copyright notice
+
+
+module shape_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "Copyright (c) 2026 e-Yantra, IIT Bombay. All rights reserved." "\n"
+      "These simulation files and source code are the intellectual property of e-Yantra," "\n"
+      "IIT Bombay, provided solely for eYRC 2026-27 (Theme: Hola The Explorer)." "\n"
+      "Sharing or redistribution of this material, in whole or in part, is not permitted.")
+    struct Shape {
+      string shape_name;
+
+      sequence<double> data;
+    };
+  };
+};

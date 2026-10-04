@@ -1,0 +1,7 @@
+setup.py
+task_1a/__init__.py
+task_1a/camera_detection.py
+task_1a.egg-info/PKG-INFO
+task_1a.egg-info/SOURCES.txt
+task_1a.egg-info/dependency_links.txt
+task_1a.egg-info/top_level.txt

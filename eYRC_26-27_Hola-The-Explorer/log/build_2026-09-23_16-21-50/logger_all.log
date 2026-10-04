@@ -1,0 +1,241 @@
+[0.132s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'task_1b']
+[0.132s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['task_1b'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bf4ff25a3e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bf4ff259d50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bf4ff259d50>>, mixin_verb=('build',))
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.334s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extension 'python'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extensions ['python_setup_py']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src) by extension 'python_setup_py'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/hb_description) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/hb_description) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/hb_description) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/hb_description) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/hb_description) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/hb_description) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/hb_description) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/hb_description) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/hb_description) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'Software/workspace/src/hb_description' with type 'ros.ament_cmake' and name 'hb_description'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/shape_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/shape_interface) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/shape_interface) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/shape_interface) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/shape_interface) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/shape_interface) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/shape_interface) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/shape_interface) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/shape_interface) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'Software/workspace/src/shape_interface' with type 'ros.ament_cmake' and name 'shape_interface'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1a) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1a) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1a) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1a) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1a) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1a) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1a) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1a) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1a) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'Software/workspace/src/task_1a' with type 'ros.ament_cmake' and name 'task_1a'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1b) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1b) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1b) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1b) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1b) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1b) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1b) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1b) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1b) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'Software/workspace/src/task_1b' with type 'ros.ament_cmake' and name 'task_1b'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1c) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1c) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1c) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1c) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1c) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1c) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1c) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1c) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Software/workspace/src/task_1c) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'Software/workspace/src/task_1c' with type 'ros.ament_cmake' and name 'task_1c'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ros'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'cmake'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extensions ['python_setup_py']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(bonus_task) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.399s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'shape_interface' in 'Software/workspace/src/shape_interface'
+[0.399s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'task_1a' in 'Software/workspace/src/task_1a'
+[0.399s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'task_1c' in 'Software/workspace/src/task_1c'
+[0.399s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hb_description' in 'Software/workspace/src/hb_description'
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.402s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install
+[0.404s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'task_1b' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'task_1b' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'task_1b' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'task_1b' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'task_1b' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'task_1b' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'task_1b' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'task_1b' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'task_1b' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'task_1b' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1b', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b', 'merge_install': False, 'path': '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/task_1b', 'symlink_install': False, 'test_result_base': None}
+[0.451s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.454s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/task_1b' with build type 'ament_cmake'
+[0.454s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/task_1b'
+[0.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1b -- -j12 -l12
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1b -- -j12 -l12
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1b
+[0.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_1b)
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1b
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b' for CMake module files
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b' for CMake config files
+[0.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_1b', 'cmake_prefix_path')
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/hook/cmake_prefix_path.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/hook/cmake_prefix_path.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/hook/cmake_prefix_path.sh'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/lib'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/bin'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/lib/pkgconfig/task_1b.pc'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/lib/python3.10/site-packages'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/bin'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.ps1'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.sh'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.bash'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/colcon-core/packages/task_1b)
+[0.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_1b)
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b' for CMake module files
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b' for CMake config files
+[0.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_1b', 'cmake_prefix_path')
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/hook/cmake_prefix_path.ps1'
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/hook/cmake_prefix_path.dsv'
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/hook/cmake_prefix_path.sh'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/lib'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/bin'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/lib/pkgconfig/task_1b.pc'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/lib/python3.10/site-packages'
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/bin'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.ps1'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.sh'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.bash'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/task_1b/package.zsh'
+[0.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1b/share/colcon-core/packages/task_1b)
+[0.986s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.987s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.992s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.006s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.007s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/local_setup.ps1'
+[1.008s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/_local_setup_util_ps1.py'
+[1.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/setup.ps1'
+[1.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/local_setup.sh'
+[1.011s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/_local_setup_util_sh.py'
+[1.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/setup.sh'
+[1.013s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/local_setup.bash'
+[1.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/setup.bash'
+[1.015s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/local_setup.zsh'
+[1.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/setup.zsh'

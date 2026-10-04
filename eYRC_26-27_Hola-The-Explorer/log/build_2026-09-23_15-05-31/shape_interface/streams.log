@@ -1,0 +1,320 @@
+[0.010s] Invoking command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/shape_interface -DCMAKE_INSTALL_PREFIX=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.191s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.280s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.280s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.284s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.372s] -- Detecting CXX compile features
+[0.373s] -- Detecting CXX compile features - done
+[0.376s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.625s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.951s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.355s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.357s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.384s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.384s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.384s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.384s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.405s] -- Found PythonExtra: .so  
+[1.503s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.528s] -- Added test 'lint_cmake' to check CMake code style
+[1.529s] -- Added test 'xmllint' to check XML markup files
+[1.533s] -- Configuring done
+[1.584s] -- Generating done
+[1.602s] -- Build files have been written to: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface
+[1.618s] Invoked command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/shape_interface -DCMAKE_INSTALL_PREFIX=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface
+[1.620s] Invoking command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface -- -j12 -l12
+[1.684s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.701s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.702s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.718s] [  6%] Built target ament_cmake_python_copy_shape_interface
+[2.177s] running egg_info
+[2.178s] creating shape_interface.egg-info
+[2.178s] writing shape_interface.egg-info/PKG-INFO
+[2.179s] writing dependency_links to shape_interface.egg-info/dependency_links.txt
+[2.179s] writing top-level names to shape_interface.egg-info/top_level.txt
+[2.179s] writing manifest file 'shape_interface.egg-info/SOURCES.txt'
+[2.182s] reading manifest file 'shape_interface.egg-info/SOURCES.txt'
+[2.183s] writing manifest file 'shape_interface.egg-info/SOURCES.txt'
+[2.241s] [  6%] Built target ament_cmake_python_build_shape_interface_egg
+[2.286s] [  6%] Built target shape_interface__rs
+[2.428s] [  8%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_generator_c.dir/rosidl_generator_c/shape_interface/srv/detail/get_shape__functions.c.o[0m
+[2.429s] [ 10%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_generator_c.dir/rosidl_generator_c/shape_interface/srv/detail/pixel_to_world__functions.c.o[0m
+[2.434s] [ 12%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_generator_c.dir/rosidl_generator_c/shape_interface/msg/detail/shape__functions.c.o[0m
+[2.443s] [ 12%] Built target shape_interface__cpp
+[2.461s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.461s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.461s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.546s] [ 20%] [32m[1mLinking C shared library libshape_interface__rosidl_generator_c.so[0m
+[2.606s] [ 20%] Built target shape_interface__rosidl_generator_c
+[2.622s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.622s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.628s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.949s] [ 31%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_interface/srv/pixel_to_world__type_support.cpp.o[0m
+[2.949s] [ 31%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_interface/srv/get_shape__type_support.cpp.o[0m
+[2.961s] [ 33%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_interface/msg/shape__type_support.cpp.o[0m
+[3.213s] [ 35%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_interface/srv/detail/get_shape__type_support.cpp.o[0m
+[3.213s] [ 37%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_interface/srv/detail/pixel_to_world__type_support.cpp.o[0m
+[3.214s] [ 39%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_interface/msg/detail/shape__type_support.cpp.o[0m
+[3.391s] [ 41%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_interface/srv/detail/dds_fastrtps/get_shape__type_support.cpp.o[0m
+[3.395s] [ 43%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_interface/srv/detail/dds_fastrtps/pixel_to_world__type_support.cpp.o[0m
+[3.436s] [ 45%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_interface/srv/get_shape__type_support.cpp.o[0m
+[3.438s] [ 47%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_interface/msg/detail/dds_fastrtps/shape__type_support.cpp.o[0m
+[3.529s] [ 50%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_interface/srv/detail/get_shape__type_support.c.o[0m
+[3.539s] [ 52%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_interface/srv/pixel_to_world__type_support.cpp.o[0m
+[3.552s] [ 54%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_interface/srv/detail/pixel_to_world__type_support.c.o[0m
+[3.559s] [ 56%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_interface/msg/shape__type_support.cpp.o[0m
+[3.582s] [ 58%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_interface/srv/detail/get_shape__type_support_c.cpp.o[0m
+[3.625s] [ 60%] [32m[1mLinking CXX shared library libshape_interface__rosidl_typesupport_cpp.so[0m
+[3.641s] [ 62%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_interface/srv/detail/pixel_to_world__type_support_c.cpp.o[0m
+[3.675s] [ 64%] [32mBuilding CXX object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_interface/msg/detail/shape__type_support_c.cpp.o[0m
+[3.685s] [ 66%] [32m[1mLinking CXX shared library libshape_interface__rosidl_typesupport_c.so[0m
+[3.693s] [ 68%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_interface/msg/detail/shape__type_support.c.o[0m
+[3.777s] [ 68%] Built target shape_interface__rosidl_typesupport_cpp
+[3.788s] [ 70%] [32m[1mLinking C shared library libshape_interface__rosidl_typesupport_introspection_c.so[0m
+[3.870s] [ 70%] Built target shape_interface__rosidl_typesupport_c
+[3.905s] [ 70%] Built target shape_interface__rosidl_typesupport_introspection_c
+[4.279s] [ 72%] [32m[1mLinking CXX shared library libshape_interface__rosidl_typesupport_introspection_cpp.so[0m
+[4.387s] [ 72%] Built target shape_interface__rosidl_typesupport_introspection_cpp
+[4.393s] [ 75%] [32m[1mLinking CXX shared library libshape_interface__rosidl_typesupport_fastrtps_c.so[0m
+[4.414s] [ 77%] [32m[1mLinking CXX shared library libshape_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.482s] [ 77%] Built target shape_interface__rosidl_typesupport_fastrtps_c
+[4.495s] [ 77%] Built target shape_interface__rosidl_typesupport_fastrtps_cpp
+[4.514s] [ 77%] Built target shape_interface
+[4.533s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.096s] [ 79%] Built target shape_interface__py
+[5.119s] [ 85%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_generator_py.dir/rosidl_generator_py/shape_interface/srv/_pixel_to_world_s.c.o[0m
+[5.119s] [ 85%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_generator_py.dir/rosidl_generator_py/shape_interface/msg/_shape_s.c.o[0m
+[5.119s] [ 85%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_generator_py.dir/rosidl_generator_py/shape_interface/srv/_get_shape_s.c.o[0m
+[5.262s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/shape_interface/libshape_interface__rosidl_generator_py.so[0m
+[5.304s] [ 87%] Built target shape_interface__rosidl_generator_py
+[5.325s] [ 93%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/shape_interface/_shape_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.325s] [ 93%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/shape_interface/_shape_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[5.326s] [ 93%] [32mBuilding C object CMakeFiles/shape_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/shape_interface/_shape_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.438s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/shape_interface/shape_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.438s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/shape_interface/shape_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.449s] [100%] [32m[1mLinking C shared library rosidl_generator_py/shape_interface/shape_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.479s] [100%] Built target shape_interface__rosidl_typesupport_c__pyext
+[5.479s] [100%] Built target shape_interface__rosidl_typesupport_introspection_c__pyext
+[5.490s] [100%] Built target shape_interface__rosidl_typesupport_fastrtps_c__pyext
+[5.504s] Invoked command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface -- -j12 -l12
+[5.505s] Invoking command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface
+[5.513s] -- Install configuration: ""
+[5.514s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/ament_index/resource_index/rosidl_interfaces/shape_interface
+[5.514s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface
+[5.514s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg
+[5.514s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/shape.h
+[5.514s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail
+[5.514s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__functions.c
+[5.514s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__struct.h
+[5.514s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__functions.h
+[5.515s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__type_support.h
+[5.515s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_generator_c__visibility_control.h
+[5.515s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv
+[5.515s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/pixel_to_world.h
+[5.515s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/get_shape.h
+[5.515s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail
+[5.515s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__struct.h
+[5.515s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__functions.c
+[5.516s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__functions.h
+[5.516s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__struct.h
+[5.516s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__type_support.h
+[5.516s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__type_support.h
+[5.516s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__functions.h
+[5.516s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__functions.c
+[5.516s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/environment/library_path.sh
+[5.517s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/environment/library_path.dsv
+[5.517s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_generator_c.so
+[5.517s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_generator_c.so" to ""
+[5.517s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface
+[5.518s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg
+[5.518s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.518s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail
+[5.518s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__rosidl_typesupport_fastrtps_c.h
+[5.518s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv
+[5.518s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail
+[5.518s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__rosidl_typesupport_fastrtps_c.h
+[5.518s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__rosidl_typesupport_fastrtps_c.h
+[5.518s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_fastrtps_c.so
+[5.519s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[5.519s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface
+[5.519s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg
+[5.519s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail
+[5.519s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__type_support.c
+[5.519s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__rosidl_typesupport_introspection_c.h
+[5.519s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.519s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv
+[5.519s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail
+[5.519s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__type_support.c
+[5.520s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__type_support.c
+[5.520s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__rosidl_typesupport_introspection_c.h
+[5.520s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__rosidl_typesupport_introspection_c.h
+[5.520s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_introspection_c.so
+[5.521s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_introspection_c.so" to ""
+[5.521s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_c.so
+[5.521s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_c.so" to ""
+[5.521s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface
+[5.521s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg
+[5.521s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.521s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/shape.hpp
+[5.522s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail
+[5.522s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__struct.hpp
+[5.522s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__builder.hpp
+[5.522s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__type_support.hpp
+[5.522s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__traits.hpp
+[5.522s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv
+[5.522s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/get_shape.hpp
+[5.522s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/pixel_to_world.hpp
+[5.522s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail
+[5.522s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__type_support.hpp
+[5.523s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__builder.hpp
+[5.523s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__struct.hpp
+[5.523s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__builder.hpp
+[5.523s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__traits.hpp
+[5.523s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__struct.hpp
+[5.523s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__traits.hpp
+[5.523s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__type_support.hpp
+[5.524s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface
+[5.524s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg
+[5.524s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.524s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail
+[5.524s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__rosidl_typesupport_fastrtps_cpp.hpp
+[5.524s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/dds_fastrtps
+[5.524s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv
+[5.524s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail
+[5.524s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__rosidl_typesupport_fastrtps_cpp.hpp
+[5.524s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__rosidl_typesupport_fastrtps_cpp.hpp
+[5.524s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/dds_fastrtps
+[5.525s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_fastrtps_cpp.so
+[5.525s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.525s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface
+[5.525s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg
+[5.525s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail
+[5.526s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__rosidl_typesupport_introspection_cpp.hpp
+[5.526s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/msg/detail/shape__type_support.cpp
+[5.526s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv
+[5.526s] -- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail
+[5.526s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__rosidl_typesupport_introspection_cpp.hpp
+[5.526s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__rosidl_typesupport_introspection_cpp.hpp
+[5.526s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/get_shape__type_support.cpp
+[5.526s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/include/shape_interface/shape_interface/srv/detail/pixel_to_world__type_support.cpp
+[5.526s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_introspection_cpp.so
+[5.527s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[5.527s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_cpp.so
+[5.528s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_typesupport_cpp.so" to ""
+[5.528s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/environment/pythonpath.sh
+[5.528s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/environment/pythonpath.dsv
+[5.528s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface-0.0.0-py3.10.egg-info
+[5.528s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface-0.0.0-py3.10.egg-info/top_level.txt
+[5.528s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.529s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[5.529s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.529s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface
+[5.529s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/_shape_interface_s.ep.rosidl_typesupport_c.c
+[5.529s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.529s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg
+[5.529s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/_shape_s.c
+[5.530s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/_shape.py
+[5.530s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/__init__.py
+[5.530s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.530s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/libshape_interface__rosidl_generator_py.so
+[5.530s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/_shape_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.530s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/__init__.py
+[5.530s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv
+[5.531s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_pixel_to_world.py
+[5.531s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_get_shape.py
+[5.531s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_pixel_to_world_s.c
+[5.531s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/__init__.py
+[5.531s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_get_shape_s.c
+[5.531s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/_shape_interface_s.ep.rosidl_typesupport_introspection_c.c
+[5.531s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.565s] Listing '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface'...
+[5.565s] Compiling '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/__init__.py'...
+[5.565s] Listing '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg'...
+[5.565s] Compiling '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/__init__.py'...
+[5.566s] Compiling '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/msg/_shape.py'...
+[5.566s] Listing '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv'...
+[5.566s] Compiling '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/__init__.py'...
+[5.566s] Compiling '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_get_shape.py'...
+[5.566s] Compiling '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/srv/_pixel_to_world.py'...
+[5.570s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.570s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.570s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.571s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.571s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.571s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages/shape_interface/shape_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.571s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_generator_py.so
+[5.572s] -- Set runtime path of "/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib/libshape_interface__rosidl_generator_py.so" to ""
+[5.572s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust
+[5.572s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/build.rs
+[5.572s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/Cargo.toml
+[5.572s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/src
+[5.572s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/src/msg
+[5.573s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/src/msg/rmw.rs
+[5.573s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/src/lib.rs
+[5.573s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/src/msg.rs
+[5.573s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/src/srv.rs
+[5.573s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/src/srv
+[5.573s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/rust/src/srv/rmw.rs
+[5.573s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/srv/GetShape.idl
+[5.574s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/srv/PixelToWorld.idl
+[5.574s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/msg/Shape.idl
+[5.574s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/srv/GetShape.srv
+[5.574s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/srv/GetShape_Request.msg
+[5.574s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/srv/GetShape_Response.msg
+[5.574s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/srv/PixelToWorld.srv
+[5.574s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/srv/PixelToWorld_Request.msg
+[5.575s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/srv/PixelToWorld_Response.msg
+[5.575s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/msg/Shape.msg
+[5.575s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/ament_index/resource_index/package_run_dependencies/shape_interface
+[5.575s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/ament_index/resource_index/parent_prefix_path/shape_interface
+[5.575s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/environment/ament_prefix_path.sh
+[5.576s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/environment/ament_prefix_path.dsv
+[5.576s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/environment/path.sh
+[5.576s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/environment/path.dsv
+[5.576s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/local_setup.bash
+[5.576s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/local_setup.sh
+[5.576s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/local_setup.zsh
+[5.576s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/local_setup.dsv
+[5.577s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/package.dsv
+[5.577s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/ament_index/resource_index/packages/shape_interface
+[5.577s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_cExport.cmake
+[5.577s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_cExport-noconfig.cmake
+[5.577s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[5.578s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.578s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_introspection_cExport.cmake
+[5.578s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.578s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_cExport.cmake
+[5.578s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_cExport-noconfig.cmake
+[5.578s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_cppExport.cmake
+[5.579s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.579s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.579s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_introspection_cppExport.cmake
+[5.579s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.579s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_cppExport.cmake
+[5.579s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[5.580s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_pyExport.cmake
+[5.580s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/export_shape_interface__rosidl_generator_pyExport-noconfig.cmake
+[5.580s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/rosidl_cmake-extras.cmake
+[5.580s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.580s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.580s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.581s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.581s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.581s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.581s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[5.581s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interfaceConfig.cmake
+[5.581s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/cmake/shape_interfaceConfig-version.cmake
+[5.581s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/share/shape_interface/package.xml
+[5.585s] Invoked command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/shape_interface

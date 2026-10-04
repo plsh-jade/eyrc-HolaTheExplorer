@@ -1,0 +1,69 @@
+[0.008s] Invoking command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a': AMENT_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/task_1a -DCMAKE_INSTALL_PREFIX=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.304s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.475s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.674s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.746s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.747s] -- Added test 'lint_cmake' to check CMake code style
+[0.747s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.749s] -- Added test 'xmllint' to check XML markup files
+[0.751s] -- Configuring done
+[0.755s] -- Generating done
+[0.757s] -- Build files have been written to: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a
+[0.763s] Invoked command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a' returned '0': AMENT_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/Software/workspace/src/task_1a -DCMAKE_INSTALL_PREFIX=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a
+[0.764s] Invoking command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a': AMENT_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a -- -j12 -l12
+[0.828s] Built target ament_cmake_python_copy_task_1a
+[1.076s] running egg_info
+[1.077s] creating task_1a.egg-info
+[1.077s] writing task_1a.egg-info/PKG-INFO
+[1.077s] writing dependency_links to task_1a.egg-info/dependency_links.txt
+[1.077s] writing top-level names to task_1a.egg-info/top_level.txt
+[1.077s] writing manifest file 'task_1a.egg-info/SOURCES.txt'
+[1.079s] reading manifest file 'task_1a.egg-info/SOURCES.txt'
+[1.079s] writing manifest file 'task_1a.egg-info/SOURCES.txt'
+[1.103s] Built target ament_cmake_python_build_task_1a_egg
+[1.112s] Invoked command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a' returned '0': AMENT_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a -- -j12 -l12
+[1.114s] Invoking command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a': AMENT_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a
+[1.120s] -- Install configuration: ""
+[1.120s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/lib/task_1a/pixel_to_world_service
+[1.122s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/pythonpath.sh
+[1.122s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/pythonpath.dsv
+[1.122s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info
+[1.122s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/top_level.txt
+[1.122s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/SOURCES.txt
+[1.123s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/PKG-INFO
+[1.123s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/dependency_links.txt
+[1.123s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a
+[1.123s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a/camera_detection.py
+[1.123s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a/__init__.py
+[1.151s] Listing '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a'...
+[1.151s] Compiling '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a/__init__.py'...
+[1.152s] Compiling '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a/camera_detection.py'...
+[1.155s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/lib/task_1a/camera_detection
+[1.155s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/ament_index/resource_index/package_run_dependencies/task_1a
+[1.156s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/ament_index/resource_index/parent_prefix_path/task_1a
+[1.156s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/ament_prefix_path.sh
+[1.156s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/ament_prefix_path.dsv
+[1.156s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/path.sh
+[1.156s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/path.dsv
+[1.157s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/local_setup.bash
+[1.157s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/local_setup.sh
+[1.157s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/local_setup.zsh
+[1.157s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/local_setup.dsv
+[1.157s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/package.dsv
+[1.157s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/ament_index/resource_index/packages/task_1a
+[1.158s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/cmake/task_1aConfig.cmake
+[1.158s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/cmake/task_1aConfig-version.cmake
+[1.158s] -- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/package.xml
+[1.161s] Invoked command in '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a' returned '0': AMENT_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/shape_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/build/task_1a

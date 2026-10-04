@@ -1,0 +1,7 @@
+setup.py
+task_1b/__init__.py
+task_1b/inverse_kinematics.py
+task_1b.egg-info/PKG-INFO
+task_1b.egg-info/SOURCES.txt
+task_1b.egg-info/dependency_links.txt
+task_1b.egg-info/top_level.txt

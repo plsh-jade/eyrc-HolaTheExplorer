@@ -1,0 +1,37 @@
+Built target ament_cmake_python_copy_task_1a
+running egg_info
+writing task_1a.egg-info/PKG-INFO
+writing dependency_links to task_1a.egg-info/dependency_links.txt
+writing top-level names to task_1a.egg-info/top_level.txt
+reading manifest file 'task_1a.egg-info/SOURCES.txt'
+writing manifest file 'task_1a.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_task_1a_egg
+-- Install configuration: ""
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/lib/task_1a/pixel_to_world_service
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/pythonpath.sh
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/pythonpath.dsv
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info
+-- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/top_level.txt
+-- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a/camera_detection.py
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a/__init__.py
+Listing '/home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/local/lib/python3.10/dist-packages/task_1a'...
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/lib/task_1a/camera_detection
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/ament_index/resource_index/package_run_dependencies/task_1a
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/ament_index/resource_index/parent_prefix_path/task_1a
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/path.sh
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/environment/path.dsv
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/local_setup.bash
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/local_setup.sh
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/local_setup.zsh
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/local_setup.dsv
+-- Installing: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/package.dsv
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/ament_index/resource_index/packages/task_1a
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/cmake/task_1aConfig.cmake
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/cmake/task_1aConfig-version.cmake
+-- Up-to-date: /home/jade/Desktop/eYRC_26-27_Hole-The_Explorer/eYRC_26-27_Hola-The-Explorer/install/task_1a/share/task_1a/package.xml

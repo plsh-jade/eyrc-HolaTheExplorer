@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from shape_interface/srv/PixelToWorld.srv
+// generated code does not contain a copyright notice
+
+
+module shape_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "Copyright (c) 2026 e-Yantra, IIT Bombay. All rights reserved." "\n"
+      "These simulation files and source code are the intellectual property of e-Yantra," "\n"
+      "IIT Bombay, provided solely for eYRC 2026-27 (Theme: Hola The Explorer)." "\n"
+      "Sharing or redistribution of this material, in whole or in part, is not permitted.")
+    struct PixelToWorld_Request {
+      @verbatim (language="comment", text=
+        "Overhead-camera pixel -> arena coordinates, in the frame /odom is published in" "\n"
+        "(origin at the arena's top-left corner, x right, y down, metres).")
+      double pixel_x;
+
+      double pixel_y;
+    };
+    struct PixelToWorld_Response {
+      boolean success;
+
+      string message;
+
+      double world_x;
+
+      double world_y;
+    };
+  };
+};
